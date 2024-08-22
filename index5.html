@@ -52,81 +52,84 @@
     <section class="titulo">
         <div class="container">
             <div class="row">
-                <div class="col">
+                <div class="col-md-12">
                     <div class="section-header text-center pt-5">
                         <h2 class="text-dark pt-5">CONTACTENOS</h2>
                         <P class="text-dark">Registra los siguientes datos para brindarle más información de nuestro
                             negocio, inmuebles, y más</P>
                     </div>
                 </div>
-            </div>
-        </div>
-        <div class="row align-items-center justify-content-center">
-            <div class="col-12 col-md-6 col-lg-6">
-                <form class=" needs-validation" novalidate">
 
-                    <div class="col-12 mb-3">
-                        <select class="form-select" aria-label="Default select example">
-                            <option selected>Seleccione el tipo de asesoría</option>
-                            <option value="1">Presencial</option>
-                            <option value="2">Telefónica</option>
-                            <option value="3">Correo electrónico</option>
-                          </select>
-                    </div>
-                        <div class="col">
-                            <label for="nombres" class="form-label">Nombres y apellidos</label>
-                            <input type="text" class="form-control mb-3" id="nombres" value="" required>
-                            <div class="valid-feedback">
-                                correcto.
-                            </div>
-                        </div>
-                        <div class="col-12">
-                            <label for="ndocumento" class="form-label">Número de
-                                documento</label>
-                            <input type="text" class="form-control mb-3" id="ndocumento" value="" required>
-                            <div class="valid-feedback">
-                                correcto.
-                            </div>
-                        </div>
-                        <div class="col-12">
-                            <label for="ndocumento" class="form-label">Número de
-                                teléfono</label>
-                            <input type="text" class="form-control mb-3" id="ndocumento" value="" required>
-                            <div class="valid-feedback">
-                                correcto.
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <label for="correo" class="form-label">Correo electrónico</label>
-                            <div class="input-group has-validation">
-                                <input type="email" class="form-control mb-3" id="correo"
-                                    aria-describedby="inputGroupPrepend" required>
-                                <div class="invalid-feedback">
-                                    Por favor ingrese un correo valido.
+                <div class="d-flex justify-content-center">
+                    <div class="col-12 col-md-12 col-lg-6 py-4">
+                        <form class="needs-validation" novalidate">
+                            <div class="row">
+                                <div class="col-12 col-md-6 col-lg-12 mb-3">
+                                    <select class="form-select" aria-label="Default select example">
+                                        <option selected>Seleccione el tipo de asesoría</option>
+                                        <option value="1">Presencial</option>
+                                        <option value="2">Telefónica</option>
+                                        <option value="3">Correo electrónico</option>
+                                    </select>
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-12">
+                                    <label for="nombres" class="form-label">Nombres y apellidos</label>
+                                    <input type="text" class="form-control mb-3" id="nombres" value="" required>
+                                    <div class="valid-feedback">
+                                        correcto.
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-12">
+                                    <label for="ndocumento" class="form-label">Número de
+                                        documento</label>
+                                    <input type="text" class="form-control mb-3" id="ndocumento" value="" required>
+                                    <div class="valid-feedback">
+                                        correcto.
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-12">
+                                    <label for="ndocumento" class="form-label">Número de
+                                        teléfono</label>
+                                    <input type="text" class="form-control mb-3" id="ndocumento" value="" required>
+                                    <div class="valid-feedback">
+                                        correcto.
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-12">
+                                    <label for="correo" class="form-label">Correo electrónico</label>
+                                    <div class="input-group has-validation">
+                                        <input type="email" class="form-control mb-3" id="correo"
+                                            aria-describedby="inputGroupPrepend" required>
+                                        <div class="invalid-feedback">
+                                            Por favor ingrese un correo valido.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-md-6 col-lg-12">
+                                    <label for="asunto" class="form-label">mensaje</label>
+                                    <textarea class="form-control" id="asunto" rows="3"></textarea>
+                                </div>
+
+                                <div class="col-12">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="acepta" required>
+                                        <label class="form-check-label mb-3" for="acepta">
+                                            Acepto terminos y condiciones.
+                                        </label>
+                                        <div class="invalid-feedback">
+                                            Debe aceptar antes de enviar.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-12 mb-5">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Cancelar</button>
+                                    <button class="btn btn-danger type=" submit">Enviar</button>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-md-6">
-                            <label for="asunto" class="form-label">mensaje</label>
-                            <textarea class="form-control" id="asunto" rows="3"></textarea>
-                        </div>
-                    
-                    <div class="col-12">
-                        <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="" id="acepta" required>
-                            <label class="form-check-label mb-3" for="acepta">
-                                Acepto terminos y condiciones.
-                            </label>
-                            <div class="invalid-feedback">
-                                Debe aceptar antes de enviar.
-                            </div>
-                        </div>
+                        </form>
                     </div>
-                    <div class="col-6 mb-5">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
-                        <button class="btn btn-danger type=" submit">Enviar</button>
-                    </div>
-                </form>
+                </div>
             </div>
         </div>
     </section>
